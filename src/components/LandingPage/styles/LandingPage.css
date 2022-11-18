@@ -1,0 +1,810 @@
+
+
+.LandingPageMain {
+  height: 450px;
+  width: 100%;
+  display: flex;
+}
+.LandingPage-left {
+  height: 100vh;
+  width: 18%;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(47, 47, 47);
+  row-gap: 20px;
+}
+.LandingPage-left-1{
+  display: flex;
+  column-gap: 30px;
+  font-size: 12px;
+  padding-left: 10px;
+  width: 100%;
+  height: 10px;
+}
+.Landingpage-leeft-svg {
+  fill: rgb(255, 255, 255);
+  width: 50px;
+  height: 20px;
+}
+.LandingPage-Right{
+  width: 100%;
+  height: 100vh;
+}
+.LandingPage-Right-page1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Image11 {
+  width: 500px;
+  height: 300px;  
+}
+.LandingPage-Right-page2 {
+  background-color: rgb(46, 46, 46);
+  height: 63.9%;
+  width: 18%;
+  display: flex;
+  position: relative;
+  bottom: 2px;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 10px;
+  column-gap: 10px;
+}
+.Landingpage-right-top {
+  display: flex;
+  column-gap: 12px;
+  height: 25px;
+}
+.Viewers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 5px;
+}
+.Teeken {
+  color: rgb(200, 50, 255);
+  margin-left: 5px;
+  cursor: pointer;
+}
+.Teeken:hover {
+  text-decoration: underline;
+}
+.Viewers > p {
+  font-size: 15px;
+  color: rgb(200, 50, 255);
+  cursor: pointer;
+}
+.Viewers > p:hover {
+  text-decoration: underline;
+} 
+.Viewers-p {
+  width: 50%;
+  color: white;
+}
+.Viewers-p2 {
+  width: 55%;
+  color: white;
+  font-size: 14px;
+}
+.Matt {
+  color: rgb(200, 50, 255);
+  cursor: pointer;
+}
+.Matt:hover {
+  text-decoration: underline;
+}
+.English {
+  width: 70px;
+  height: 20px;
+  background-color: rgb(79, 79, 79);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.English:hover {
+  background-color: rgb(105, 105, 105);
+
+}
+.English-bigger:hover {
+  background-color: rgb(105, 105, 105);
+
+}
+.English-bigger {
+  width: 90px;
+  height: 25px;
+  background-color: rgb(79, 79, 79);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Channels {
+  font-size: 13px;
+  line-height: 20px;
+}
+.Svg-left {
+  position: absolute;
+  left: 25%;
+  fill: white;
+  z-index: 1;
+  cursor: pointer;
+}
+.Hell {
+  width: 55%;
+}
+.Svg-right {
+  position: absolute;
+  right: 10%;
+  fill: white;
+  z-index: 1;
+  cursor: pointer;
+}
+.qdssqd {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+  height: 60%;
+}
+.MoveRight {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 59%;
+  height: 60%;
+}
+.Moveleft{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 60%
+}
+.Moveleftt{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4%;
+  height: 60%
+}
+.Play {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  margin-right: 90px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.Sound{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.Settings {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.Moveleftt-top{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  height: 53%
+}
+.Moveleftt-top-Click {
+  background-color: rgb(0, 0, 0);
+  color: black;
+  width: 40%;
+  height: 80%;
+  display: flex;
+  margin-right: 70px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border-radius: 8px;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.Moveleftt-top-Quality {
+  background-color: rgb(0, 0, 0);
+  color: black;
+  width: 40%;
+  height: 92%;
+  display: flex;
+  margin-right: 70px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border-radius: 8px;
+  flex-direction: column;
+  row-gap: 10px;
+  font-size: 13px;
+}
+.Moveleftt-right-Open{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47%;
+  height: 32%
+}
+.Moveleftt-right{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+  height: 54%
+}
+.Moveleftt-rightt{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58%;
+  height: 54%
+}
+.BigPage {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.Svg-qulatiy {
+  width: 20px;
+  height: 20px;
+  fill: white;
+  z-index: 1;
+  cursor: pointer;
+}
+.Svg-qulatiy-bigger{
+  width: 50px;
+  height: 30px;
+  fill: white;
+  cursor: pointer;
+}
+.Svg-qulatiy-bigger-pause {
+  width: 35px;
+  height: 20px;
+  fill: white;
+  cursor: pointer;
+}
+.Qulity-Flex-top {
+  display: flex;
+  column-gap: 5px;
+  padding-left: 5px;
+  padding-top: 10px;
+  color: white;
+}
+.Svg-x{
+  fill: white;
+  cursor: pointer;
+  z-index: 1;
+}
+.Qulity-open-Border{
+  width: 90%;
+  background-color: rgb(84, 84, 84);
+  height: 1px;
+}
+.Qulity-open-border-bottom{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+}
+.Qulity-open-border-bottom-flex{
+  display: flex;
+  column-gap: 5px;
+  width: 95%;
+  padding-left: 5px;
+  align-items: center;
+  border-radius: 2px;
+  border-right: 500px;
+}
+.Qulity-open-border-bottom-flex:hover {
+  background-color: rgb(75, 75, 75);
+  cursor: pointer;
+  align-items: center;
+}
+.Quality-margin {
+  width: 70%;
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
+.Quality-margin2 {
+  width: 82%;
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
+.Svg-right-Quality {
+  fill: white;
+  position: relative;
+  bottom: 2px;
+  height: 20px;
+}
+.Orb-flex {
+  display: flex;
+  column-gap: 10px;
+  height: 30px;
+  align-items: center;
+}
+.Orb-auto{
+  fill: rgb(207, 207, 207);
+  width: 16px;
+  height: 16px;
+  border-radius: 150px;
+  z-index: 1;
+  cursor: pointer;
+
+}
+.Orb-auto_Presed {
+  fill: rgb(207, 207, 207);
+  background-color: rgba(174, 0, 255, 0.771);
+  width: 16px;
+  height: 16px;
+  border-radius: 150px;
+  cursor: pointer;
+}
+.Live {
+  width: 82%;
+  display: flex;
+  align-items: center;
+  margin-left: 18%;
+  padding-bottom: 20px;
+}
+.Showmore {
+  color: red;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  column-gap: 10px;
+}
+.Showmore-first {
+  color: red;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  column-gap: 10px;
+}
+.Showmoreborder {
+  width: 40%;
+  background-color: rgba(42, 42, 42, 0.656);
+  height: 1px;
+  margin-left: 20%;
+  margin-top: 0.7%;
+
+}
+.Show-more-text {
+  margin-left: 0%;
+  color: rgb(187, 114, 255);
+  width: 7%;
+  cursor: pointer;
+}
+.Showmor-svg {
+  cursor: pointer;
+  fill: white;
+}
+.Showmoreborder-right {
+  width: 40%;
+  background-color: rgba(42, 42, 42, 0.656);
+  height: 1px;
+  margin-right: 5%;
+  margin-top: 0.7%;
+}
+.Games-irl-icons {
+  display: flex;
+  width: 82%;
+  height: 150px;
+  margin-left: 17%;
+  column-gap: 15px;
+  justify-content: center;
+}
+.Icon_box {
+  width: 80%;
+  background-color: rgb(106, 0, 255);
+  height: 32%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  column-gap: 45%;
+}
+.Icon_box:hover {
+  background-color: rgb(157, 0, 255);
+  cursor: pointer;
+}
+.Icon_box-move {
+  width: 80%;
+  background-color: rgb(106, 0, 255);
+  height: 32%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  column-gap: 40%;
+}
+.Icon_box-move:hover {
+  background-color: rgb(157, 0, 255);
+  cursor: pointer;
+}
+.Icon_box-less {
+  width: 80%;
+  background-color: rgb(106, 0, 255);
+  height: 32%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  column-gap: 60%;
+}
+.Icon_box-less:hover {
+  background-color: rgb(157, 0, 255);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1281px) {
+  .LandingPage-left {
+    height: 100vh;
+    width: 25%;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(47, 47, 47);
+    row-gap: 20px;
+    flex-wrap: wrap;
+  }
+  .LandingPage-Right-page1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Moveleftt-right{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 14%
+  }
+  .Moveleftt-rightt{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 73%;
+    height: 60%
+  }
+  .qdssqd {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: 70%;
+  }
+  .MoveRight {
+    width: 72%;
+    height: 70%;
+  }
+  .Moveleft {
+    height: 70%;
+  }
+  .Moveleftt {
+    height: 70%;
+  }
+  .Svg-right {
+    position: absolute;
+    right: 6%;
+    fill: white;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .Viewers  {
+    width: 88%;
+  }
+  .LandingPage-Right-page2 {
+    background-color: rgb(46, 46, 46);
+    height: 73%;
+    width: 28%;
+    display: flex;
+    position: relative;
+    bottom: 2px;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    column-gap: 10px;
+  }
+  .Moveleftt-right-Open {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 57%;
+    height: 36%;
+  }
+  .Moveleftt-top {
+    height: 60%;
+    width: 18%;
+  }
+  .Moveleftt-right{
+    height: 62%;
+    width: 68%;
+  }
+  .Live {
+    width: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 18%;
+    padding-bottom: 20px;
+   }
+    .Showmore {
+  color: red;
+  height: 100px;
+  display: flex;
+  align-items:flex-start;
+  justify-content: block;
+  width: 100%;
+  column-gap: 10px;
+}
+.Show-more-text {
+  margin-left: 0%;
+  color: rgb(187, 114, 255);
+  width: 11%;
+  cursor: pointer;
+}
+}
+
+
+
+
+@media only screen and (max-width: 1025px) {
+  .LandingPageMain {
+    height: 350px;
+  }
+  .LandingPage-left {
+    height: 100vh;
+    width: 28%;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(47, 47, 47);
+    row-gap: 20px;
+    flex-wrap: wrap;
+  }
+  .LandingPage-Right-page1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Moveleftt-right{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 14%
+  }
+  .Moveleftt-rightt{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 60%
+  }
+  .qdssqd {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: 75%;
+  }
+  .MoveRight {
+    position: absolute;
+    right: 24.5%;
+    width: 20%;
+    height: 75%;
+  }
+  .Moveleft {
+    height: 75%;
+  }
+  .Moveleftt {
+    height: 75%;
+  }
+  .Svg-right {
+    position: absolute;
+    right: 3%;
+    fill: white;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .Viewers  {
+    width: 95%;
+    font-size: 11px;
+  }
+  .Viewers > p {
+    font-size: 11px;
+  }
+  .Teeken {
+    font-size: 13px;
+  }
+  .Svg-left {
+    left: 24%;
+  }
+  .LandingPage-Right-page2 {
+    background-color: rgb(46, 46, 46);
+    height: 80%;
+    width: 28%;
+    display: flex;
+    position: relative;
+    bottom: 2px;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    column-gap: 10px;
+  }
+  .Channels {
+    font-size: 11px;
+  }
+  .Moveleftt-right-Open {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 57%;
+    height: 36%;
+  }
+  .Moveleftt-top {
+    height: 60%;
+    width: 18%;
+  }
+  .Moveleftt-right{
+    height: 62%;
+    width: 68%;
+  }
+  .Image11 {
+    width: 400px;
+    height: 250px;
+  }
+  .Moveleftt-top-Click {
+    background-color: rgb(0, 0, 0);
+    color: black;
+    width: 40%;
+    height: 105%;
+    display: flex;
+    margin-right: 70px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border-radius: 8px;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .Moveleftt-top-Quality {
+    background-color: rgb(0, 0, 0);
+    color: black;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    margin-right: 70px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border-radius: 8px;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 13px;
+  }
+  .Quality-margin {
+    width: 66%;
+  }
+.Games-irl-icons {
+  flex-wrap: wrap;
+  display: flex;
+  width: 80%;
+  height: 100%;
+  padding-bottom: 100px;
+  margin-left: 17%;
+  column-gap: 15px;
+  justify-content: center;
+  row-gap: 20px;
+}
+.Icon_box {
+  width: 30%;
+  background-color: rgb(106, 0, 255);
+  height: 32%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  column-gap: 45%;
+}
+.Icon_box-less {
+  width: 30%;
+}
+.Icon_box-move{
+  width: 30%;
+}
+}
+
+
+
+
+@media only screen and (max-width: 914px) {
+  .LandingPageMain {
+    display: none;
+  }
+  .Landingpage2-Boss {
+    width: 100%;
+    margin-left: 0;
+  }
+  .Icon_box-less {
+    width: 50%;
+  }
+.Icon_box {
+  width: 50%;
+}
+.Icon_box-move {
+  width: 50%;
+}
+}
+
+@media only screen and (max-width: 560px) {
+  .Main-All-pages {
+    width: 120%;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .Main-All-pages {
+    width: 100%;
+  }
+}
