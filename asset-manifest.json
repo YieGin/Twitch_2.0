@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Twitch/static/css/main.39f88dfc.css",
-    "main.js": "/Twitch/static/js/main.7c1bd72c.js",
-    "static/media/13.jpg": "/Twitch/static/media/13.a075e4cc011c619a73e9.jpg",
-    "static/media/14.jpg": "/Twitch/static/media/14.a726490131edf047d187.jpg",
-    "static/media/16.jpg": "/Twitch/static/media/16.1a2517725e6f63df1a35.jpg",
-    "static/media/15.png": "/Twitch/static/media/15.cd103e8b3e4080d35a7b.png",
-    "static/media/12.png": "/Twitch/static/media/12.0e5d7cfe557776328b9a.png",
-    "static/media/2.png": "/Twitch/static/media/2.04a6b9a2b26d50dcc66d.png",
-    "static/media/7.png": "/Twitch/static/media/7.90b9b7e5e490021a4e05.png",
-    "index.html": "/Twitch/index.html",
-    "main.39f88dfc.css.map": "/Twitch/static/css/main.39f88dfc.css.map",
-    "main.7c1bd72c.js.map": "/Twitch/static/js/main.7c1bd72c.js.map"
+    "main.css": "/Twitch_2.0/static/css/main.39f88dfc.css",
+    "main.js": "/Twitch_2.0/static/js/main.54aa5713.js",
+    "static/media/13.jpg": "/Twitch_2.0/static/media/13.a075e4cc011c619a73e9.jpg",
+    "static/media/14.jpg": "/Twitch_2.0/static/media/14.a726490131edf047d187.jpg",
+    "static/media/16.jpg": "/Twitch_2.0/static/media/16.1a2517725e6f63df1a35.jpg",
+    "static/media/15.png": "/Twitch_2.0/static/media/15.cd103e8b3e4080d35a7b.png",
+    "static/media/12.png": "/Twitch_2.0/static/media/12.0e5d7cfe557776328b9a.png",
+    "static/media/2.png": "/Twitch_2.0/static/media/2.04a6b9a2b26d50dcc66d.png",
+    "static/media/7.png": "/Twitch_2.0/static/media/7.90b9b7e5e490021a4e05.png",
+    "index.html": "/Twitch_2.0/index.html",
+    "main.39f88dfc.css.map": "/Twitch_2.0/static/css/main.39f88dfc.css.map",
+    "main.54aa5713.js.map": "/Twitch_2.0/static/js/main.54aa5713.js.map"
   },
   "entrypoints": [
     "static/css/main.39f88dfc.css",
-    "static/js/main.7c1bd72c.js"
+    "static/js/main.54aa5713.js"
   ]
 }
